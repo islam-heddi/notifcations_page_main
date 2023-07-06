@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="media.css">
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="notifications">
+    <div class="intro">
+    <div class="item">
+    <p><b class="notification">Notifications</b><div class="new" id="new-notification">3</div></p>
+   </div>
+   <div class="mark">
+    <p class="mark" onclick="mark_all()">Mark all as read</p>
+  </div>
+  </div>
+  <div class="notification-people">
+  <div class="person first" id="first">
+    <img src="assets/images/avatar-mark-webber.webp">
+   <div class="item-1">
+    <p><b>Mark Webber</b> reacted to your recent post <span class="tournament">My first tournament today!</span> <span id="newer"><img src="assets/images/circle.png" id="circ"></span> 
+    </p>
+    <div class="period">1m ago</div> 
+   </div>
+  </div>
+  <div class="person second" id="second">
+    <img src="assets/images/avatar-angela-gray.webp">
+    <div class="item-2">
+    <p><b>Angela Gray</b> followed you <span id="newer2"><img src="assets/images/circle.png" id="circ"></span></p>
+   <div class="period">5m ago</div>
+  </div> 
+  </div>
+  <div class="person third" id="third">
+    <img src="assets/images/avatar-jacob-thompson.webp">
+    <div class="item-3">
+    <p><b>Jacob Thompson</b> has joined your group <span class="Chess">Chess Club</span> <span id="newer3"><img src="assets/images/circle.png" id="circ"></span></p>
+   <div class="period">1 day ago</div>
+  </div>
+  </div>
+  <div class="person">
+    <img src="assets/images/avatar-rizky-hasanuddin.webp">
+    <div class="item-4">
+    <p><b>Rizky Hasanuddin</b> sent you a private message</p>
+   <div class="period">5 days ago</div>
+  </div> 
+  </div>
+  <div class="message">
+   <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+    I'm already having lots of fun and improving my game.
+  </p>
+  </div>
+  <div class="person">
+    <img src="assets/images/avatar-kimberly-smith.webp">
+    <div class="temp">
+    <div class="item-5">
+    <p><b>Kimberly Smith</b> commented on your picture</p>
+    <div class="period">1 week ago</div>
+  </div>
+  <img src="assets/images/image-chess.webp">
+</div>
+</div>
+  <div class="person">
+    <img src="assets/images/avatar-nathan-peterson.webp">
+    <div class="item-6">
+    <p><b>Nathan Peterson</b> reacted to your recent post 5 end-game strategies to increase your win rate</p>
+    <div class="period">2 weeks ago</div>
+  </div>
+  </div>
+  <div class="person">
+    <img src="assets/images/avatar-anna-kim.webp">
+    <div class="item-7">
+   <p><b>Anna Kim</b> left the group <span class="Chess">Chess Club</span></p>
+   <div class="period">2 weeks ago</div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
